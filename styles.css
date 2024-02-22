@@ -60,9 +60,25 @@
     width: 100%;
 }
 
-
-
 .navbar__links:hover {
     color: #7c0ba5;
     transition: all 0.3s ease;
+}
+
+
+.about_me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center; 
+}
+
+.about_me img {
+    padding-top: 100px;
+    padding-left: 50px;
+    max-width: 60%;
+    margin-right: 20px; 
+}
+
+.about_me_write {
+    padding: 20px;
 }
